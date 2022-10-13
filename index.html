@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon clone</title>
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="shortcut icon"
+      href="https://thumbs.dreamstime.com/b/amazon-logo-white-background-montreal-canada-july-printed-paper-98221126.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./assert/fontawesome/css/all.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <!-------navigation-bar------->
+    <header class="header">
+      <div class="header-nav">
+        <div class="header-container">
+          <img class="logo" src="images/logo.png" alt="logo-img" />
+          <div class="header-search">
+            <input class="search-input" type="text" />
+            <button class="search-button">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="header-cart">
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"
+                />
+              </svg>
+            </div>
+            <p>Cart</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-----------section-1------------->
+    <section>
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/head-img-1.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="images/head-img-2.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="images/head-img-3.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="images/head-img-4.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="images/head-img-5.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="images/head-img-6.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="images/head-img-7.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="images/head-img-8.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="images/head-img-9.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section class="section-1">
+      <div class="section-1-container">
+        <div class="section-1-column">
+          <h1>Top picks for your home</h1>
+          <img src="images/img-1.jpg" alt="img-1" />
+          <p>See more</p>
+        </div>
+        <div class="section-1-column">
+          <h1>Top rated,Amazon Brands & more</h1>
+          <img src="images/img-2.jpg" alt="img-1" />
+          <p>See more</p>
+        </div>
+        <div class="section-1-column">
+          <h1>Shop & Pay | Earn rewards daily</h1>
+          <img class="head-box" src="images/img-3.jpg" alt="img-1" />
+          <p>See more</p>
+        </div>
+        <div class="section-1-column">
+          <h1>Sign in for your best experience</h1>
+          <button>Sign in securely</button>
+        </div>
+      </div>
+    </section>
+    <!-------section-2----------------->
+    <section class="section-2">
+      <div class="section-2-container">
+        <h3>Related to items you've viewed</h3>
+        <div class="product-cards">
+          <div class="product-card">
+            <img src="images/img-4.jpg" alt="" />
+          </div>
+          <div class="product-card">
+            <img src="images/img-5.jpg" alt="" />
+          </div>
+          <div class="product-card">
+            <img src="images/img-6.jpg" alt="" />
+          </div>
+          <div class="product-card">
+            <img src="images/img-7.jpg" alt="" />
+          </div>
+          <div class="product-card">
+            <img src="images/img-8.jpg" alt="" />
+          </div>
+          <div class="product-card">
+            <img src="images/img-9.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--------section-2---watches------------------------->
+    <section class="section-2">
+      <div class="section-2-container">
+        <h3>Upto 40% off</h3>
+        <div class="product-cards">
+          <div class="product-card">
+            <img src="images/watch-1.jpg" alt="" />
+          </div>
+          <div class="product-card">
+            <img src="images/watch.jpg" alt="" />
+          </div>
+          <div class="product-card">
+            <img src="images/w-2.jpg" alt="" />
+          </div>
+          <div class="product-card">
+            <img src="images/w-3.jpg" alt="" />
+          </div>
+          <div class="product-card">
+            <img src="images/w-4.jpg" alt="" />
+          </div>
+          <div class="product-card">
+            <img src="images/w-5.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------section-2--food--------->
+    <section class="section-2">
+      <div class="section-2-container">
+        <h3>Best Sellers in Grocery & Gourmet Foods</h3>
+        <div class="product-cards">
+          <div class="product-card">
+            <img src="images/food-1.jpg" alt="" />
+          </div>
+          <div class="product-card">
+            <img src="images/food-2.jpg" alt="" />
+          </div>
+          <div class="product-card">
+            <img src="images/food-3.jpg" alt="" />
+          </div>
+          <div class="product-card">
+            <img src="images/food-4.jpg" alt="" />
+          </div>
+          <div class="product-card">
+            <img src="images/food-5.jpg" alt="" />
+          </div>
+          <div class="product-card">
+            <img src="images/food-6.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <p>
+        Made with ❤️ by Vamsi! <br />
+        Copyrights by : 2022
+      </p>
+    </footer>
+  </body>
+</html>
